@@ -59,7 +59,7 @@
         <header id="masthead">
             
             <div data-elementor-type="page" data-elementor-id="317" class="elementor elementor-317">
-                <section class="elementor-section elementor-top-section elementor-element elementor-element-3c2fbb9 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3c2fbb9" data-element_type="section">
+                <section id="home" class="elementor-section elementor-top-section elementor-element elementor-element-3c2fbb9 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3c2fbb9" data-element_type="section">
                     <div class="elementor-container elementor-column-gap-default">
                         <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-8cf3e14" data-id="8cf3e14" data-element_type="column">
                             <div class="elementor-widget-wrap elementor-element-populated">
@@ -85,16 +85,16 @@
                                                 <div class="jkit-menu-container">
                                                     <ul id="menu-menu" class="jkit-menu jkit-menu-direction-flex jkit-submenu-position-top">
                                                         <li id="menu-item-172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item">
-                                                            <a href="index.html" aria-current="page">Home</a>
+                                                            <a href="#home" aria-current="page">Home</a>
                                                         </li>
                                                         <li id="menu-item-563" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
-                                                            <a href="services/index.html">Services</a>
+                                                            <a href="#services">Services</a>
                                                         </li>
                                                         <li id="menu-item-563" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
                                                             <a href="#team">Team</a>
                                                         </li>
                                                         <li id="menu-item-558" class="menu-item menu-item-type-post_type menu-item-object-page">
-                                                            <a href="contact/index.html">Contact</a>
+                                                            <a href="#contact">Contact</a>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -168,7 +168,7 @@
                                             </div>
                                             <div class="elementor-element elementor-element-9e33850 elementor-widget__width-auto elementor-widget elementor-widget-jkit_button" data-id="9e33850" data-element_type="widget" data-widget_type="jkit_button.default">
                                                 <div class="elementor-widget-container">
-                                                    <div class="jeg-elementor-kit jkit-button  icon-position-before jeg_module_132_5_653fcf8839f1c"><a href="#con" class="jkit-button-wrapper">Let's Talk!</a></div>
+                                                    <div class="jeg-elementor-kit jkit-button  icon-position-before jeg_module_132_5_653fcf8839f1c"><a href="#contact" class="jkit-button-wrapper">Let's Talk!</a></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -244,7 +244,7 @@
             
             <!-- Services -->
             
-            <section class="elementor-section elementor-top-section elementor-element elementor-element-6cb35552 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6cb35552" data-element_type="section">
+            <section id="services" class="elementor-section elementor-top-section elementor-element elementor-element-6cb35552 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6cb35552" data-element_type="section">
                 <div class="elementor-container elementor-column-gap-default">
                     <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-69c8136" data-id="69c8136" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
@@ -277,7 +277,7 @@
                                             </div>
                                             <div class="elementor-element elementor-element-a67a66b elementor-widget elementor-widget-text-editor" data-id="a67a66b" data-element_type="widget" data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
-                                                    <p>Based on the Open Web Application Security Project (OWASP), Application Security Verification Standard (ASVS) and the OWASP Testing Guide, which provides a comprehensive framework for assessing the security of web-based applications. <br> Manual testing ensures coverage of specific business logic offered by the app, producing better results than automated scanning.</p>
+                                                    <p>Based on the Open Web Application Security Project (OWASP), Application Security Verification Standard (ASVS), and the OWASP Testing Guide, which provides a comprehensive framework for assessing the security of web-based applications. <br> Manual testing ensures coverage of specific business logic offered by the app, producing better results than automated scanning.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -304,7 +304,7 @@
                                             </div>
                                             <div class="elementor-element elementor-element-67d18a4 elementor-widget elementor-widget-text-editor" data-id="67d18a4" data-element_type="widget" data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
-                                                    <p>Web API pentesting follows a similar approach as Web Application testing. The API pentesting methodology is based on the same foundation as the OWASP Top 10, ASVS, and OWASP Testing Guide. <br>The approach is focused on understand and analyze the authentication type used, methods, structures, responses, and look for vulnerabilities and unexpected cases.</p>
+                                                    <p>Web API pentesting follows a similar approach as Web Application testing. The API pentesting methodology is based on the same foundation as the OWASP Top 10, ASVS, and OWASP Testing Guide. <br> The approach is focused on understanding and analyzing the authentication type used, methods, structures, and responses, looking for vulnerabilities and unexpected cases.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -415,7 +415,7 @@
                                                                 </div>
                                                                 <div class="feature-list-content-box">
                                                                     <h3 class="feature-list-title">What is Pentesting?</h3>
-                                                                    <p class="feature-list-content">Penetration testing (or pentesting) is a security exercise where a cyber-security expert attempts to identify and exploit vulnerabilities in a computer system (web app, mobile app, API, network). The purpose of this simulated attack is to find any weak spots in a system’s defenses that attackers could take advantage of.</p>
+                                                                    <p class="feature-list-content">Penetration testing (or pentesting) is a security exercise where cyber-security experts attempt to identify and exploit vulnerabilities in a computer system (web app, mobile app, API, network). The purpose of this simulated attack is to find any weak spots in a system’s defenses that attackers could take advantage of.</p>
                                                                 </div>
                                                             </li>
                                                             <li class="feature-list-item elementor-repeater-item-44355bf">
@@ -429,7 +429,7 @@
                                                                 </div>
                                                                 <div class="feature-list-content-box">
                                                                     <h3 class="feature-list-title">What are vulnerabilities?</h3>
-                                                                    <p class="feature-list-content">Vulnerabilities are usually weaknesses that an attacker could exploit to affect data confidentiality, integrity, or availability. The vulnerabilities found can be used to patch applications or networks, fine-tune security policies, identify common weaknesses across multiple applications, and strengthen the overall security posture.</p>
+                                                                    <p class="feature-list-content">Vulnerabilities are usually weaknesses that attackers could exploit to affect data confidentiality, integrity, or availability. The vulnerabilities found can be used to patch applications or networks, fine-tune security policies, identify common weaknesses across multiple applications, and strengthen the overall security posture.</p>
                                                                 </div>
                                                             </li>
                                                             <li class="feature-list-item elementor-repeater-item-6e6793a">
@@ -813,7 +813,7 @@
                             </div>
                             <div class="elementor-element elementor-element-48d5106 elementor-widget__width-auto elementor-widget-tablet__width-inherit elementor-widget elementor-widget-jkit_button" data-id="48d5106" data-element_type="widget" data-widget_type="jkit_button.default">
                                 <div class="elementor-widget-container">
-                                    <div class="jeg-elementor-kit jkit-button  icon-position-before jeg_module_132_68_653fcf88badec"><a href="#" class="jkit-button-wrapper">Contact Us</a></div>
+                                    <div class="jeg-elementor-kit jkit-button  icon-position-before jeg_module_132_68_653fcf88badec"><a href="#contact" class="jkit-button-wrapper">Contact Us</a></div>
                                 </div>
                             </div>
                         </div>
@@ -823,7 +823,7 @@
 
             <!-- Team -->
             
-            <section class="elementor-section elementor-top-section elementor-element elementor-element-5648914 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5648914" data-element_type="section">
+            <section id="team" class="elementor-section elementor-top-section elementor-element elementor-element-5648914 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5648914" data-element_type="section">
                 <div class="elementor-container elementor-column-gap-default">
                     <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f009810" data-id="f009810" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
@@ -843,8 +843,8 @@
                                                             <div class="profile-card ">
                                                                 <div class="profile-body">
                                                                     <h3 class="profile-title">Juan Pablo Ruffino</h3>
-                                                                    <p class="profile-designation">Security Analyst</p>
-                                                                    <p>Ozono does testing for mobile applications running on the Android platform. .</p>
+                                                                    <p class="profile-designation">Web Security Engineer</p>
+                                                                    <p>An experienced ethical hacker with +9 years in the field who enjoys understanding how things work, solving challenges, and creating ad-hoc scripts with interpreted programming languages.</p>
                                                                 </div>
                                                                 <div class="profile-footer">
                                                                     <ul class="social-list"></ul>
@@ -907,9 +907,11 @@
                 </div>
             </section>
             
-            <!-- Contact -->
+            <!-- Contact
             
-            <section class="elementor-section elementor-top-section elementor-element elementor-element-644302b6 elementor-section-content-middle elementor-reverse-tablet elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="644302b6" data-element_type="section">
+
+
+            <section id="contact" class="elementor-section elementor-top-section elementor-element elementor-element-644302b6 elementor-section-content-middle elementor-reverse-tablet elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="644302b6" data-element_type="section">
                 <div class="elementor-background-overlay"></div>
                 <div class="elementor-container elementor-column-gap-default">
                     <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-357a08f7" data-id="357a08f7" data-element_type="column">
@@ -1025,10 +1027,21 @@
                     </div>
                 </div>
             </section>
+
+            --->
             
             <!-- Form & Map -->
-            <section class="elementor-section elementor-top-section elementor-element elementor-element-fe762fd elementor-section-content-middle elementor-reverse-tablet elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="fe762fd" data-element_type="section">
+            <section id="contact" class="elementor-section elementor-top-section elementor-element elementor-element-fe762fd elementor-section-content-middle elementor-reverse-tablet elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="fe762fd" data-element_type="section">
                 <div class="elementor-background-overlay"></div>
+
+                <div class="elementor-element elementor-element-757030be elementor-widget elementor-widget-heading" data-id="757030be" data-element_type="widget" data-widget_type="heading.default">
+                    <div class="elementor-widget-container">
+                        <style>/*! elementor - v3.16.0 - 09-10-2023 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style>
+                        <h2 class="elementor-heading-title elementor-size-default">How Can We Help?</h2>
+                    </div>
+                </div>
+
                 <div class="elementor-container elementor-column-gap-default">
                     <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a70b720" data-id="a70b720" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
@@ -1040,7 +1053,7 @@
                                                 <div class="elementor-widget-container">
                                                     <div class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_549_12_653fcffcc5d58">
                                                         <div class="heading-section-description">
-                                                            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeISht1yD3kgyAyI2CEjESxN4u16VySwrYRMdYosDuXRZcgHw/viewform?embedded=true" width="640" height="685" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+                                                            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeISht1yD3kgyAyI2CEjESxN4u16VySwrYRMdYosDuXRZcgHw/viewform?embedded=true" width="640" height="685" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1315,18 +1328,18 @@
                                                     <div class="elementor-widget-container">
                                                         <ul class="elementor-icon-list-items elementor-inline-items">
                                                             <li class="elementor-icon-list-item elementor-inline-item">
-                                                                <a href="#">
+                                                                <a href="#home">
+                                                                    <span class="elementor-icon-list-text">Home</span>
+                                                                </a>
+                                                            </li>
+                                                            <li class="elementor-icon-list-item elementor-inline-item">
+                                                                <a href="#services">
                                                                     <span class="elementor-icon-list-text">Services</span>
                                                                 </a>
                                                             </li>
                                                             <li class="elementor-icon-list-item elementor-inline-item">
-                                                                <a href="#">
+                                                                <a href="#team">
                                                                     <span class="elementor-icon-list-text">Team</span>
-                                                                </a>
-                                                            </li>
-                                                            <li class="elementor-icon-list-item elementor-inline-item">
-                                                                <a href="#">
-                                                                    <span class="elementor-icon-list-text">Contact</span>
                                                                 </a>
                                                             </li>
                                                         </ul>
@@ -1339,7 +1352,7 @@
                                                 <div class="elementor-element elementor-element-c1a40f1 elementor-widget__width-initial elementor-widget-mobile__width-initial elementor-widget elementor-widget-jkit_button" data-id="c1a40f1" data-element_type="widget" data-widget_type="jkit_button.default">
                                                     <div class="elementor-widget-container">
                                                         <div class="jeg-elementor-kit jkit-button  icon-position-before jeg_module_132_75_653fcf89049fa">
-                                                            <a href="#" class="jkit-button-wrapper">Contact Us</a>
+                                                            <a href="#contact" class="jkit-button-wrapper">Contact Us</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1347,9 +1360,8 @@
                                         </div>
                                     </div>
                                 </section>
-                                <section class="elementor-section elementor-inner-section elementor-element elementor-element-c946b20 elementor-section-content-middle elementor-hidden-tablet elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c946b20" data-element_type="section">
-                                     
-                                    <div class="elementor-container elementor-column-gap-no">
+                                
+                                <!-- <section class="elementor-element elementor-element-c946b20 elementor-section-content-middle elementor-hidden-tablet elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c946b20" data-element_type="section"> -->
                                         
                                         <!--<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-29592a4">
                                             
@@ -1389,7 +1401,7 @@
                                                 </div>
                                             </div> 
                                         </div> -->
-                                        <div class="elementor-column elementor-col-75 elementor-inner-column elementor-element elementor-element-c3ee341" data-id="c3ee341" data-element_type="column">
+                                        <!-- <div class="elementor-column elementor-col-75 elementor-inner-column elementor-element elementor-element-c3ee341" data-id="c3ee341" data-element_type="column">
                                             <div class="elementor-widget-wrap elementor-element-populated">
                                                 <div class="elementor-element elementor-element-c9e1122 elementor-widget elementor-widget-heading" data-id="c9e1122" data-element_type="widget" data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
@@ -1420,8 +1432,8 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-181c06f" data-id="181c06f" data-element_type="column">
+                                        </div> -->
+                                        <!-- <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-181c06f" data-id="181c06f" data-element_type="column">
                                             <div class="elementor-widget-wrap elementor-element-populated">
                                                 <div class="elementor-element elementor-element-632695a elementor-widget elementor-widget-heading" data-id="632695a" data-element_type="widget" data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
@@ -1455,10 +1467,11 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                </section>
-                                <section class="elementor-section elementor-inner-section elementor-element elementor-element-7d519c0 elementor-section-content-middle elementor-hidden-desktop elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7d519c0" data-element_type="section">
+                                        </div> -->
+                                    
+                                <!-- </section> -->
+                                
+                                <!--- <section class="elementor-section elementor-inner-section elementor-element elementor-element-7d519c0 elementor-section-content-middle elementor-hidden-desktop elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7d519c0" data-element_type="section">
                                     <div class="elementor-container elementor-column-gap-no">
                                         <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-de099dd" data-id="de099dd" data-element_type="column">
                                             <div class="elementor-widget-wrap elementor-element-populated">
@@ -1563,16 +1576,26 @@
                                             </div>
                                         </div>
                                     </div>
-                                </section>
-                                <div class="elementor-element elementor-element-541e0da elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-image" data-id="541e0da" data-element_type="widget" data-widget_type="image.default">
+                                </section> --->
+
+                                
+                          
+                               
+                                <div style="margin-top: 100px; border-bottom: 1px solid white; width: 100%;"></div>
+
+                                <div class="elementor-element elementor-element-541e0da elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-image elementor-section-height-default" data-id="541e0da" data-element_type="widget" data-widget_type="image.default">
                                     <div class="elementor-widget-container">
-                                        <img width="800" height="227" src="img/katana-logo-white.png" class="attachment-large size-large wp-image-192" alt="" decoding="async" loading="lazy" sizes="(max-width: 800px) 100vw, 800px" /> </div>
+                                        <img width="800" height="227" src="img/katana-logo-white.png" class="attachment-large size-large wp-image-192" alt="" decoding="async" loading="lazy" sizes="(max-width: 800px) 100vw, 800px" />
+                                    </div>    
                                 </div>
                                 <div class="elementor-element elementor-element-41789de elementor-widget__width-auto elementor-widget-mobile__width-inherit elementor-widget elementor-widget-text-editor" data-id="41789de">
                                     <div class="elementor-widget-container">
-                                        Copyright © 2024 Katana. All rights reserved.</div>
+                                        Copyright © 2024 Katana. All rights reserved.
+                                    </div>
                                 </div>
+                                
                             </div>
+
                         </div>
                     </div>
                 </section>
@@ -1597,6 +1620,18 @@
     <script src='wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min05da.js?ver=4.0.2' id='elementor-waypoints-js'></script>
     <script src='wp-includes/js/jquery/ui/core.min3f14.js?ver=1.13.2' id='jquery-ui-core-js'></script>
     <script src='wp-content/plugins/elementor/assets/js/frontend.min33f1.js?ver=3.16.5' id='elementor-frontend-js'></script>
+
+    <script type="text/javascript">
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 
 </body>
 
